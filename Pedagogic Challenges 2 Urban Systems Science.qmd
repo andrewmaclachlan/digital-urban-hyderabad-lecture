@@ -6,15 +6,15 @@ format:
       slide-number: c/t
   #    width: 1600
   #    height: 900
-      footer: "GI systems and science • Andy MacLachlan"
+      footer: "Pedagogic challenges 2: urban systems science • Andy MacLachlan"
       highlight-style: github
       code-copy: true
       code-line-numbers: true
       controls: true
   #    css: ["theme/theme.css"]
-      theme: [serif, slides.scss]
+      theme: [moon, slides.scss]
       echo: true
-title: Reproducible geographical information Systems and Science
+title: "Pedagogic challenges 2: urban systems science"
 #subtitle: Slides with revealjs
 author: <a href="https://www.ucl.ac.uk/bartlett/casa/people/dr-andrew-maclachlan">Andy MacLachlan</a><br> The Barlett Centre for Advanced Spatial Analysis, UCL <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /><div class="container">
   <span><a href="https://twitter.com/andymaclachlan"><i class="fab fa-twitter"></i> andymaclachlan</a></span><br><br>
