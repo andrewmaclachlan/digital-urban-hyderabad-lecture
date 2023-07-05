@@ -1,0 +1,7 @@
+project:
+  title: "Sheffield_conference"
+  type: website
+  output-dir: docs
+
+editor: visual
+
