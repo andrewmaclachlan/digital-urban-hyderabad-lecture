@@ -32,15 +32,13 @@ logo: "img/CASA_logo.png"
 
 ::: columns
 ::: {.column width="49%"}
--   Rationale for teaching and research agenda points
+-   Urban systems
 
--   Why bother with it?
+-   Big data
 
--   Module and assessment changes
+-   Data contamination / manipulation
 
--   Outcomes
-
--   Future work
+-   Reproducibility
 :::
 
 ::: {.column width="49%"}
@@ -63,69 +61,275 @@ logo: "img/CASA_logo.png"
     -   Geographic information systems and science
     -   Remotely sensing cities and environments
 
-## Agendas {.center}
+## Urban systems science ? {.center}
 
-### Teaching
+## What do we mean
 
--   Empower students to become leading activists in urban spatial science
+<br/>
 
--   Equip students with spatial skills for the interpretation of urban data leading to data-informed decisions
+### Urban systems
 
--   Instill critical thought based on a solid theoretical and technical foundation to see through *buzz words and hype* that are often associated with smart cities / urban analytics.
+> A set of towns and cities \[*or **functions** within cities*\] that can be considered **linked together by various forms of social and economic interaction**
 
-## Being able to **reproduce content is essential to these** {.center}
+::: {style="font-size: 60%;"}
+Source: [Oxford reference](https://www.oxfordreference.com/abstract/10.1093/acref/9780199599868.001.0001/acref-9780199599868-e-1983;jsessionid=43832BA6A8DBAEB88DED097D233BE0E1)
+:::
 
-## What led me here? {.center}
+### Systems thinking
+
+> Methods aimed at studying a system through its collective behavioral features
+
+::: {style="font-size: 60%;"}
+Source: [Cristiano et al. 2020](https://www.frontiersin.org/articles/10.3389/frsc.2020.00012/full)
+:::
+
+## 
+
+![](img/system_think.png){fig-align="center" width="350"}
+
+## 
+
+### Science of cities
+
+> The science of cities -- using evidence to understand how cities work -- is forever expanding
+
+::: {style="font-size: 60%;"}
+Source: [UK Government](https://www.gov.uk/government/publications/future-of-cities-science-of-cities)
+:::
+
+### Urban science
+
+> Urban science is an interdisciplinary field that studies diverse **urban issues and problems**
+
+::: {style="font-size: 60%;"}
+Source: [Wikipedia](https://en.wikipedia.org/wiki/Urban_science)
+:::
+
+## Urban systems science {auto-animate="true"}
+
+## Urban systems science {auto-animate="true"}
+
+<br/> <br/>
+
+**Urban Systems**: Cities \[or functions within cities\] that can be considered linked together \[there is a relationship between them\]
+
+::: {style="font-size: 150%;"}
+::: center-xy
+**+**
+:::
+:::
+
+## Urban systems science {auto-animate="true"}
+
+<br/> <br/>
+
+**Urban Systems**: Cities \[or functions within cities\] that can be considered linked together \[there is a relationship between them\]
+
+::: {style="font-size: 150%;"}
+::: center-xy
+**+**
+:::
+:::
+
+<br/> <br/>
+
+**Urban Science**: Urban issues and problems
+
+## Urban systems science {auto-animate="true"}
+
+<br/> <br/>
+
+**Urban Systems**: Cities \[or functions within cities\] that can be considered linked together \[there is a relationship between them\]
+
+::: {style="font-size: 150%;"}
+::: center-xy
+**+**
+:::
+:::
+
+<br/> <br/>
+
+**Urban Science**: Urban issues and problems
+
+::: {style="font-size: 150%;"}
+::: center-xy
+**=**
+:::
+:::
+
+<br/> <br/>
+
+**Smart Cities**: networks and services are made more efficient with the use of digital solutions for the benefit of its inhabitants and business.
+
+::: {style="font-size: 60%;"}
+Source: [Smart Cities, European Comission](https://commission.europa.eu/eu-regional-and-urban-development/topics/cities-and-urban-development/city-initiatives/smart-cities_en)
+:::
+
+## Smart cities {auto-animate="true"}
+
+<br/>
+
+**United Nations Thematic Areas**
+
+-   Inclusive cities - equal access to services, increase safety
+
+-   Sustainable cities - limited resources in most efficient manner
+
+-   Adaptable cities - mitigate and adapt, air pollution, climate change
+
+::: {style="font-size: 60%;"}
+Source: [Smart Cities](https://www.undp.org/sgtechcentre/smart-cities-1#:~:text=Smart%20cities%20use%20technology%20and,as%20a%20leading%20smart%20city.)
+:::
+
+## Smart cities
+
+<br/>
+
+**United Nations Thematic Areas**
+
+-   Inclusive cities - equal access to services, increase safety
+
+-   Sustainable cities - limited resources in most efficient manner
+
+-   Adaptable cities - mitigate and adapt, air pollution, climate change
+
+::: {style="font-size: 60%;"}
+Source: [Smart Cities](https://www.undp.org/sgtechcentre/smart-cities-1#:~:text=Smart%20cities%20use%20technology%20and,as%20a%20leading%20smart%20city.)
+:::
+
+## Urban system science approach:
+
+[![Updated from Grolemund & Wickham\'s classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations](img/environmental_data_science_r4ds_general.png)](https://github.com/allisonhorst/stats-illustrations)
+
+> The same as regular data science **but with spatial data**
+
+## An example....UHI
+
+<br/>
+
+### Fremantle Woolstore, Western Australia
+
+<br/>
 
 ::: columns
 ::: {.column width="49%"}
--   Lecture with Carl Howe
+![](img/woolstore.png){fig-align="center" width="594"}
 
-> 2017, 90% of the data in the world today has been created in the last two years alone, at 2.5 quintillion bytes of data a day! - IBM
+![](img/woolstore_2.png){fig-align="center" width="548"}
 :::
 
 ::: {.column width="49%"}
-![](img/carlhowe.jpg){fig-align="center" width="350"}
+![](img/woolstore_3.png){fig-align="center" width="548"}
 :::
 :::
 
-## Data is often misrepresented....
+## An example....UHI
+
+<br/>
+
+![](img/woolstore_plans.png){fig-align="center" width="548"}
+
+## An example....UHI
+
+Ran 4 scenarios:
+
+::: columns
+::: {.column width="49%"}
+1.  Original (existing) development (from satellite imagery)
+2.  Proposed redevelopment as in the plan
+3.  Proposed redevelopment removing trees
+4.  Proposed redevelopment with trees covering the hottest pixels
+:::
+
+::: {.column width="49%"}
+![](img/woolstore_analysis.png){fig-align="center" width="1000"}
+:::
+:::
+
+## An example....UHI
+
+![](img/planning_process.png){fig-align="center" width="1000"}
+
+## How smart are cities?
+
+<br/>
+
+<p align="center">
+
+<iframe width="900" height="700" src="https://www.youtube.com/embed/k5eL_al_m7Q?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+</p>
+
+## What is spatial data?
+
+::: columns
+::: {.column width="49%"}
+-   The earth is a 3D sphere (well, almost). It's wider than it is tall
+-   In order to locate a point on the surface of a sphere, we need a set of coordinates
+-   Coordinates will tell us how near to the top or bottom of the sphere we are, or how far around
+-   But where do we start?
+:::
+
+::: {.column width="49%"}
+![](img/3d_globe.jpg){fig-align="center" width="548"}
+:::
+:::
+
+## What is spatial data 2?
+
+::: columns
+::: {.column width="49%"}
+
+**Geographic Coordinate Reference System**
+
+  - treats the globe as if it was a sphere divided into 360 equal parts called degrees 
+
+<br/>
+
+**Projected Coordinate Reference System**
+
+  - flat, two-dimensional plane (through projecting a spheroid onto a 2D surface) giving it constant lengths, angles and areas
+
+:::
+
+::: {.column width="49%"}
+![](img/globe.png){fig-align="center" width="401"} ![](img/projected.png){fig-align="center" width="400"}
+:::
+:::
+
+##
+
+![](img/flat_earth.png){fig-align="center" width="401"}
+
+## Simply
+
+> Spatial data is just like normal data exepct it has an extra "geometry column"
+
+
+[![Spatial data. Source: Manifold Viewer](img/geometry_col.png)](https://manifold.net/doc/mfd9/spatial_data.htm){fig-align="center" width="401"}
+
+
+## Pedagogic challenges
+
+-   Data contamination / manipulation
+
+-   Big data
+
+-   Reproducibility
+
+## Data contamination / manipulation
+
+**Data can often misrepresented, even from *trusted* sources**
 
 ![](img/canada_election.png){fig-align="center"}
 
+## Data contamination / manipulation
+
+Russian tweets
+
 ## Ok, what about **geographic data** {.center}
-
-## 
-
-![](img/Chris-Brunsdon.jpg){fig-align="center" width="800" height="560"}
-
-## A shifting landscape
-
-::: columns
-::: {.column width="49%"}
-##### Paper: Opening practice: supporting reproducibility and critical spatial data science
-
--   A comparison of Geographical Weighted regression across:
-    -   4 open software packages
-    -   2 black box / commercial implementations
-:::
-
-::: {.column width="49%"}
-::: fragment
-> All of the implementations were tested with the same input data. **They all gave the same results except the ESRI/ArcGIS** implementation (Li 2018), and although ESRI provide help for the GWR tools, the actual coding is closed---the underlying code is not revealed
-
-::: {style="font-size: 60%;"}
-Source: [Brunsdon and Comber, 2021](https://link.springer.com/article/10.1007/s10109-020-00334-2)
-:::
-:::
-:::
-:::
-
-## 
-
-![](img/jack-dangermond.jpg){fig-align="center"}
-
-## A slight tangent {.center}
 
 ## Who has made our *boundary* data? {.center}
 
@@ -176,6 +380,76 @@ Every 10 years electoral districts are re-drawn "redistricting"-- Thomas Hofelle
 ## 
 
 ![](img/district12.png)
+
+## Big data
+
+> Big geospatial data include datasets that are too large to be processed using traditional GIS tools
+
+DuckDB
+
+PostGIS
+
+Earth Engine
+
+CARTO
+
+## Agendas {.center}
+
+### Teaching
+
+-   Empower students to become leading activists in urban spatial science
+
+-   Equip students with spatial skills for the interpretation of urban data leading to data-informed decisions
+
+-   Instill critical thought based on a solid theoretical and technical foundation to see through *buzz words and hype* that are often associated with smart cities / urban analytics.
+
+## Being able to **reproduce content is essential to these** {.center}
+
+## What led me here? {.center}
+
+::: columns
+::: {.column width="49%"}
+-   Lecture with Carl Howe
+
+> 2017, 90% of the data in the world today has been created in the last two years alone, at 2.5 quintillion bytes of data a day! - IBM
+:::
+
+::: {.column width="49%"}
+![](img/carlhowe.jpg){fig-align="center" width="350"}
+:::
+:::
+
+## Ok, what about **geographic data** {.center}
+
+## 
+
+![](img/Chris-Brunsdon.jpg){fig-align="center" width="800" height="560"}
+
+## A shifting landscape
+
+::: columns
+::: {.column width="49%"}
+##### Paper: Opening practice: supporting reproducibility and critical spatial data science
+
+-   A comparison of Geographical Weighted regression across:
+    -   4 open software packages
+    -   2 black box / commercial implementations
+:::
+
+::: {.column width="49%"}
+::: fragment
+> All of the implementations were tested with the same input data. **They all gave the same results except the ESRI/ArcGIS** implementation (Li 2018), and although ESRI provide help for the GWR tools, the actual coding is closed---the underlying code is not revealed
+
+::: {style="font-size: 60%;"}
+Source: [Brunsdon and Comber, 2021](https://link.springer.com/article/10.1007/s10109-020-00334-2)
+:::
+:::
+:::
+:::
+
+## 
+
+![](img/jack-dangermond.jpg){fig-align="center"}
 
 ## How do I teach reproducibility and data bias awareness {.center}
 

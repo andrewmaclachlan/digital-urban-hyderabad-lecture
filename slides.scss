@@ -112,3 +112,11 @@ $code-block-border-left-width: 5px;
 .reveal a {
     line-height: 1.3em;
 }
+
+.center-xy {
+          margin: 0;
+          position: absolute;
+          left: 50%;
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+        }
