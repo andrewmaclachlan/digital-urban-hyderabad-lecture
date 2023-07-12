@@ -385,6 +385,8 @@ Every 10 years electoral districts are re-drawn "redistricting"-- Thomas Hofelle
 
 > Big geospatial data include datasets that are too large to be processed using traditional GIS tools
 
+https://gis.harvard.edu/gis-data-science-big-data-workstream-cga
+
 DuckDB
 
 PostGIS
