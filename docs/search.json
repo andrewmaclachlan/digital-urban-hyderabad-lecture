@@ -312,7 +312,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#talk-overview",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Talk overview",
-    "text": "Talk overview\n\n\n\nUrban systems\nBig data\nData contamination / manipulation\nReproducibility"
+    "text": "Talk overview\n\n\n\nUrban systems science?\nSpatial data\n\nPedagogic challenges\n\nData contamination / manipulation\nBig data\nReproducibility"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#who-am-i",
@@ -494,7 +494,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#section-5",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "",
-    "text": "“Redistricting is democracy at work” - Tom Hofeller"
+    "text": "Demystifying the Parquet File Format"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#make-it-mandatory-for-the-assessment-1",
@@ -571,7 +571,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#section-6",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "",
-    "text": "Source: Allison Horst"
+    "text": "New York City Taxi and Limousine Commission (TLC) all records from Yellow and Green Cabs"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#what-are-urban-systems",
@@ -605,8 +605,8 @@
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#urban-systems-science",
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#urban-systems-science",
     "title": "Pedagogic challenges 2: urban systems science",
-    "section": "Urban systems science ?",
-    "text": "Urban systems science ?"
+    "section": "Urban systems science",
+    "text": "Urban systems science"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#science-of-cities",
@@ -648,7 +648,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#section-7",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "",
-    "text": "Source: Allison Horst"
+    "text": "DuckDB\nPostGIS\nEarth Engine"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#section-1",
@@ -662,28 +662,28 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#section-8",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "",
-    "text": "Practice exam (weeks 5-10), 10%\nFinal exam (6 hour open book), 90%"
+    "text": "Source: Allison Horst"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#urban-systems-science-1",
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#urban-systems-science-1",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Urban systems science",
-    "text": "Urban systems science"
+    "text": "Urban systems science\n \nUrban Systems: Cities [or functions within cities] that can be considered linked together [there is a relationship between them]\n\n\n+"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#section-9",
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#section-9",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "",
-    "text": "Pedagogic challenges 2: urban systems science • Andy MacLachlan"
+    "text": "Source: Allison Horst"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#section-10",
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#section-10",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "",
-    "text": "Pedagogic challenges 2: urban systems science • Andy MacLachlan"
+    "text": "Practice exam (weeks 5-10), 10%\nFinal exam (6 hour open book), 90%"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#section-11",
@@ -697,14 +697,14 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#urban-systems-science-2",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Urban systems science",
-    "text": "Urban systems science\n \nUrban Systems: Cities [or functions within cities] that can be considered linked together [there is a relationship between them]\n\n\n+"
+    "text": "Urban systems science\n \nUrban Systems: Cities [or functions within cities] that can be considered linked together [there is a relationship between them]\n\n\n+\n\n\n \nUrban Science: Urban issues and problems"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#urban-systems-science-3",
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#urban-systems-science-3",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Urban systems science",
-    "text": "Urban systems science\n \nUrban Systems: Cities [or functions within cities] that can be considered linked together [there is a relationship between them]\n\n\n+\n\n\n \nUrban Science: Urban issues and problems"
+    "text": "Urban systems science\n \nUrban Systems: Cities [or functions within cities] that can be considered linked together [there is a relationship between them]\n\n\n+\n\n\n \nUrban Science: Urban issues and problems\n\n\n=\n\n\n \nSmart Cities: networks and services are made more efficient with the use of digital solutions for the benefit of its inhabitants and business.\n\nSource: Smart Cities, European Comission"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#urban-systems-science-4",
@@ -732,7 +732,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#urban-system-science-approach",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Urban system science approach:",
-    "text": "Urban system science approach:\n\nUpdated from Grolemund & Wickham's classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations\nThe same as regular data science but with spatial data"
+    "text": "Urban system science approach:\n\nUpdated from Grolemund & Wickham’s classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations\nThe same as regular data science but with spatial data"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#an-example.uhi",
@@ -767,7 +767,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#pedagogic-challenges",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Pedagogic challenges",
-    "text": "Pedagogic challenges\n\nData contamination / manipulation\nBig data\nReproducibility"
+    "text": "Pedagogic challenges\nPart 3: Data contamination / manipulation ?"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#data-contamination-manipulation",
@@ -816,6 +816,160 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#big-data",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Big data",
-    "text": "Big data\n\nBig geospatial data include datasets that are too large to be processed using traditional GIS tools\n\nhttps://gis.harvard.edu/gis-data-science-big-data-workstream-cga\nDuckDB\nPostGIS\nEarth Engine\nCARTO"
+    "text": "Big data\n\nBig geospatial data include datasets that are too large to be processed using traditional GIS tools\n\n\nSource: GIS Harvard\n\nWhy are they large?\nRaster\n\nLandsat satellite data: 400 scenes of Earth a day, revising each location every 16 days\n\nEach scene is about 1GB\n\n\nVector\n\nNew York City Taxi and Limousine Commission (TLC) all records from Yellow and Green Cabs\n\n150GB, 1.2 billion records\n\nOpen Street Map\n\n1764.5GB when uncompressed"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#what-can-we-d",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#what-can-we-d",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "What can we d",
+    "text": "What can we d\nDuckDB\nPostGIS\nEarth Engine\nCARTO"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#what-can-we-do-about-it",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#what-can-we-do-about-it",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "What can we do about it?",
+    "text": "What can we do about it?\nParquet files\n\nWe are moving from row based storage to column based\nAbout 50x faster than a .csv\nIt groups our data. For example a row group size of 2, puts rows all the data from 1 and 2 next to each other then we have 3! = GROUPS or PARTITION\nIf we have large data this means we can skip groups we don’t need"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#concepts",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#concepts",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "Concepts",
+    "text": "Concepts\n\nYou may come across Arrow - this is an in-memory format, Parquet is a storage format\nThe primary difference in using this is we write some code then apply the code to the storage files\nAfterwards we collect the results…\nIn the R for Data Science book a 9BG .csv is queried in\n\n11 seconds for standard code\n0.063 seconds using a parquet file! 100x faster"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#we-can-go-faster",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#we-can-go-faster",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "We can go faster!",
+    "text": "We can go faster!\n\n[]"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#section-12",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#section-12",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "",
+    "text": "Pedagogic challenges 2: urban systems science • Andy MacLachlan"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#duckdb",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#duckdb",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "DuckDB",
+    "text": "DuckDB\n\nDatabase management system\nColumnar data\nNo installation\nConvert our Parquet file to DuckDB and back again!\n\n\nto_duckdb() \nto_arrow()\n\n\nRegarding performance, parquet is 717 times faster than the same query on a csv file, and duckdb is 2808 times faster.\n\n\nAll make sure of dplyr ! select(), filter(), groupby() = direct integration with R\n\n\nSource: Christophe Nicault"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#problems",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#problems",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "Problems",
+    "text": "Problems\n\nCurrently the support for spatial data is very limited limited\nsfarrow - can load and query the data but can’t do any analysis!"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#postgis",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#postgis",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "PostGIS",
+    "text": "PostGIS\n\nPostgreSQL = object-relational database\n\n\nDVD Rental Model"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#postgis-1",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#postgis-1",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "PostGIS",
+    "text": "PostGIS"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#postgis-2",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#postgis-2",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "PostGIS",
+    "text": "PostGIS"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#postgresql-has-a-postgis-extention",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#postgresql-has-a-postgis-extention",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "PostgreSQL has a PostGIS extention",
+    "text": "PostgreSQL has a PostGIS extention"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#this-allows-the-geometry-column-and-spatial-quieres",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#this-allows-the-geometry-column-and-spatial-quieres",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "This allows the “geometry” column and spatial quieres",
+    "text": "This allows the “geometry” column and spatial quieres\n\nMaking random points in polygons\n\n\n5 million random points\n\nQGIS = 226 seconds\nPostGIS = 18 seconds\n\n\nSource: Why should you care about PostGIS? — A gentle introduction to spatial databases"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#urban-systems-science-5",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#urban-systems-science-5",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "Urban systems science",
+    "text": "Urban systems science"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#urban-systems-science-6",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#urban-systems-science-6",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "Urban systems science",
+    "text": "Urban systems science"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#postgresql-has-a-postgis-extention-this-allows-the-geometry-column-and-spatial-quieres",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#postgresql-has-a-postgis-extention-this-allows-the-geometry-column-and-spatial-quieres",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "PostgreSQL has a PostGIS extention ##This allows the “geometry” column and spatial quieres",
+    "text": "PostgreSQL has a PostGIS extention ##This allows the “geometry” column and spatial quieres"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#part-2-spatial-data",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#part-2-spatial-data",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "Part 2: Spatial data",
+    "text": "Part 2: Spatial data"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#part-1-urban-systems-science",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#part-1-urban-systems-science",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "Part 1: Urban systems science ?",
+    "text": "Part 1: Urban systems science ?"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#part-3-data-contamination-manipulation",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#part-3-data-contamination-manipulation",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "Part 3: Data contamination / manipulation ?",
+    "text": "Part 3: Data contamination / manipulation ?\nPedagogic challenges\n\nData contamination / manipulation\nBig data\nReproducibility"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#pedagogic-challenges-1",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#pedagogic-challenges-1",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "Pedagogic challenges",
+    "text": "Pedagogic challenges\nPart 4: Big Data"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#pedagogic-challenges-2",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#pedagogic-challenges-2",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "Pedagogic challenges",
+    "text": "Pedagogic challenges\nPart 5: Reproducibility"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#postgres",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#postgres",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "Postgres",
+    "text": "Postgres"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#starting",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#starting",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "Starting",
+    "text": "Starting\n\nDespite all these tools we must start with the basics.\nOften this is in Quantum GIS (free) or ArcMap($)\nWe will be exploring QGIS in the workshop later"
   }
 ]

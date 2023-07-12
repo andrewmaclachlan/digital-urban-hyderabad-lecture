@@ -32,11 +32,15 @@ logo: "img/CASA_logo.png"
 
 ::: columns
 ::: {.column width="49%"}
--   Urban systems
+-   Urban systems science?
 
--   Big data
+-   Spatial data
+
+**Pedagogic challenges**
 
 -   Data contamination / manipulation
+
+-   Big data
 
 -   Reproducibility
 :::
@@ -61,7 +65,7 @@ logo: "img/CASA_logo.png"
     -   Geographic information systems and science
     -   Remotely sensing cities and environments
 
-## Urban systems science ? {.center}
+## Part 1: Urban systems science ? {.center}
 
 ## What do we mean
 
@@ -199,7 +203,7 @@ Source: [Smart Cities](https://www.undp.org/sgtechcentre/smart-cities-1#:~:text=
 
 ## Urban system science approach:
 
-[![Updated from Grolemund & Wickham\'s classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations](img/environmental_data_science_r4ds_general.png)](https://github.com/allisonhorst/stats-illustrations)
+[![Updated from Grolemund & Wickham's classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations](img/environmental_data_science_r4ds_general.png)](https://github.com/allisonhorst/stats-illustrations)
 
 > The same as regular data science **but with spatial data**
 
@@ -250,6 +254,8 @@ Ran 4 scenarios:
 
 ![](img/planning_process.png){fig-align="center" width="1000"}
 
+## Part 2: Spatial data {.center}
+
 ## How smart are cities?
 
 <br/>
@@ -281,17 +287,15 @@ Ran 4 scenarios:
 
 ::: columns
 ::: {.column width="49%"}
-
 **Geographic Coordinate Reference System**
 
-  - treats the globe as if it was a sphere divided into 360 equal parts called degrees 
+-   treats the globe as if it was a sphere divided into 360 equal parts called degrees
 
 <br/>
 
 **Projected Coordinate Reference System**
 
-  - flat, two-dimensional plane (through projecting a spheroid onto a 2D surface) giving it constant lengths, angles and areas
-
+-   flat, two-dimensional plane (through projecting a spheroid onto a 2D surface) giving it constant lengths, angles and areas
 :::
 
 ::: {.column width="49%"}
@@ -299,7 +303,7 @@ Ran 4 scenarios:
 :::
 :::
 
-##
+## 
 
 ![](img/flat_earth.png){fig-align="center" width="401"}
 
@@ -307,17 +311,11 @@ Ran 4 scenarios:
 
 > Spatial data is just like normal data exepct it has an extra "geometry column"
 
+[![Spatial data. Source: Manifold Viewer](img/geometry_col.png)](https://manifold.net/doc/mfd9/spatial_data.htm)
 
-[![Spatial data. Source: Manifold Viewer](img/geometry_col.png)](https://manifold.net/doc/mfd9/spatial_data.htm){fig-align="center" width="401"}
+## Pedagogic challenges {.center}
 
-
-## Pedagogic challenges
-
--   Data contamination / manipulation
-
--   Big data
-
--   Reproducibility
+### Part 3: Data contamination / manipulation ? {.center}
 
 ## Data contamination / manipulation
 
@@ -381,19 +379,150 @@ Every 10 years electoral districts are re-drawn "redistricting"-- Thomas Hofelle
 
 ![](img/district12.png)
 
+## Pedagogic challenges {.center}
+
+### Part 4: Big Data {.center}
+
 ## Big data
 
 > Big geospatial data include datasets that are too large to be processed using traditional GIS tools
 
-https://gis.harvard.edu/gis-data-science-big-data-workstream-cga
+::: {style="font-size: 60%;"}
+Source: [GIS Harvard](https://gis.harvard.edu/gis-data-science-big-data-workstream-cga)
+:::
 
-DuckDB
+### Why are they large?
 
-PostGIS
+**Raster**
 
-Earth Engine
+-   Landsat satellite data: 400 scenes of Earth a day, revising each location every 16 days
 
-CARTO
+    -   Each scene is about 1GB
+
+**Vector**
+
+-   New York City Taxi and Limousine Commission (TLC) all records from Yellow and Green Cabs
+
+    -   150GB, 1.2 billion records
+
+-   Open Street Map
+
+    -   1764.5GB when uncompressed
+
+## What can we do about it?
+
+#### Parquet files
+
+-   We are moving from row based storage to column based
+
+-   About 50x faster than a .csv
+
+-   It groups our data. For example a row group size of 2, puts rows all the data from 1 and 2 next to each other **then** we have 3! = GROUPS or PARTITION
+
+-   If we have large data this means we can skip groups we don't need
+
+## 
+
+[![Demystifying the Parquet File Format](img/storage.png){fig-align="center" width="2000"}](https://towardsdatascience.com/demystifying-the-parquet-file-format-13adb0206705)
+
+## 
+
+[![New York City Taxi and Limousine Commission (TLC) all records from Yellow and Green Cabs](img/cab_data.png){fig-align="center" width="2000"}](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.pag)
+
+## Concepts
+
+-   You may come across **Arrow** - this is an in-memory format, **Parquet** is a storage format
+
+-   The primary difference in using this is we write some code then apply the code to the storage files
+
+-   Afterwards we **collect** the results...
+
+-   In the R for Data Science book a 9BG `.csv` is queried in
+
+    -   11 seconds for standard code
+    -   0.063 seconds using a parquet file! 100x faster
+
+## We can go faster!
+
+<br/>
+
+\[![DuckDB](img/duck.jpg){fig-align="center" width="2000"}\]
+
+## DuckDB
+
+-   Database management system
+
+-   Columnar data
+
+-   No installation
+
+-   Convert our Parquet file to DuckDB and back again!
+
+```{r, eval=FALSE}
+to_duckdb() 
+to_arrow()
+```
+
+> Regarding performance, parquet is 717 times faster than the same query on a csv file, and duckdb is 2808 times faster.
+
+-   All make sure of `dplyr` ! `select()`, `filter()`, `groupby()` = direct integration with R
+
+::: {style="font-size: 60%;"}
+Source: [Christophe Nicault](https://www.christophenicault.com/post/large_dataframe_arrow_duckdb/)
+:::
+
+## Problems
+
+-   Currently the support for spatial data is very limited limited
+
+-   [sfarrow](https://wcjochem.github.io/sfarrow/articles/example_sfarrow.html) - can load and query the data but can't do any analysis!
+
+## Postgres
+
+![](img/Postgresql_elephant.svg.png){fig-align="center" width="482"}
+
+## PostGIS
+
+-   PostgreSQL = object-relational database
+
+[![DVD Rental Model](img/dvd-rental-sample-database-diagram.png){fig-align="center" width="793"}](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/)
+
+## PostgreSQL has a PostGIS extention {.center}
+
+## This allows the "geometry" column and spatial quieres {auto-animate="true"}
+
+<br/>
+
+#### Making random points in polygons
+
+<br/>
+
+[![](img/random_points.png){fig-align="center" width="100%"}](https://freegistutorial.com/how-to-create-random-points-inside-polygon-on-qgis/)
+
+5 million random points
+
+-   QGIS = 226 seconds
+-   PostGIS = 18 seconds
+
+::: {style="font-size: 60%;"}
+Source: [Why should you care about PostGIS? --- A gentle introduction to spatial databases](https://medium.com/@tjukanov/why-should-you-care-about-postgis-a-gentle-introduction-to-spatial-databases-9eccd26bc42b)
+:::
+
+## PostGIS
+
+![](img/PostGIS_logo.png){fig-align="center"}
+
+## Starting 
+
+* Despite all these tools we must start with the basics.
+
+* Often this is in Quantum GIS (free) or ArcMap($)
+
+* We will be exploring QGIS in the workshop later
+
+## Pedagogic challenges {.center}
+
+### Part 5: Reproducibility {.center}
 
 ## Agendas {.center}
 
