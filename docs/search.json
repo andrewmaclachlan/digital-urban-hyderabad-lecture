@@ -473,7 +473,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#make-it-mandatory-for-the-assessment",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "2. Make it mandatory for the assessment",
-    "text": "2. Make it mandatory for the assessment\nPrevious iterations\n\nYour task is to carry out a mini research project which answers a pertinent or topical geo-spatial question\n\n\n\n\n\n\n\n\nNote\n\n\nStudents struggled to come up with a question, source data and apply it\n\nPlagiarism\nPoor applications\nVery unbalanced reports"
+    "text": "2. Make it mandatory for the assessment\nPart 2: GIS analysis\n\n\nExample practice question\n\nNew York City wish to conduct a study that aims to prevent people being evicted through understand possible related factors.You have been enlisted as a consultant and tasked to conduct an analysis of their data from 2020.\n\nData:\n\nList of evictions\nNew York City community districts"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#what-are-we-assessing",
@@ -501,7 +501,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#make-it-mandatory-for-the-assessment-1",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "2. Make it mandatory for the assessment",
-    "text": "2. Make it mandatory for the assessment\nPart 2: GIS analysis\n\n\nExample practice question\n\nNew York City wish to conduct a study that aims to prevent people being evicted through understand possible related factors.You have been enlisted as a consultant and tasked to conduct an analysis of their data from 2020.\n\nData:\n\nList of evictions\nNew York City community districts"
+    "text": "2. Make it mandatory for the assessment\nDISCUSS\n\nHow were the evictions recorded\nWhy were there limited evictions during 2020/ then a sudden peak? - COVID ban on evictions\nHow can identifying spatially related factors to evictions be useful\nAre there certain areas that have higher evictions than others - why might this be?\nWhat assumption does the data make\nWhat assumptions does the model make"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#make-it-mandatory-for-the-assessment-2",
@@ -564,7 +564,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#conclusion",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Conclusion",
-    "text": "Conclusion\n\n\nLead by example\n\n\nLearn by doing\n\n\nTools become the norm\n\n\nRespond to industry requirements\n\n\nConsider what needs assessing"
+    "text": "Conclusion\n\n\nLead by example\n\n\nLearn by doing\n\n\nTools become the norm\n\n\nRespond to industry requirements\n\n\nConsider what needs assessing\n\n\n\nPedagogic challenges 2: urban systems science • Andy MacLachlan"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#section-6",
@@ -648,7 +648,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#section-7",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "",
-    "text": "Practice exam (weeks 5-10), 10%\nFinal exam (6 hour open book), 90%"
+    "text": "Pedagogic challenges 2: urban systems science • Andy MacLachlan"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#section-1",
@@ -774,7 +774,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#data-contamination-manipulation",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Data contamination / manipulation",
-    "text": "Data contamination / manipulation\nData can often misrepresented, even from trusted sources"
+    "text": "Data contamination / manipulation"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#data-contamination-manipulation-1",
@@ -999,5 +999,12 @@
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "1b. Listen to Alumni / employers",
     "text": "1b. Listen to Alumni / employers"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#c.-design-and-output-1",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#c.-design-and-output-1",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "1c. Design and output",
+    "text": "1c. Design and output\nPart 2: GIS analysis\nIn part 2 we shift from subject based to problem based learning….\nEach practical answers a question….\n\n\nWhat are the factors that might lead to variation in Average GCSE point scores across the city?"
   }
 ]

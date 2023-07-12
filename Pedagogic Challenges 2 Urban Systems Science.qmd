@@ -161,7 +161,6 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Urban_science)
 **=**
 :::
 :::
-
 <br/> <br/>
 
 **Smart Cities**: networks and services are made more efficient with the use of digital solutions for the benefit of its inhabitants and business.
@@ -170,37 +169,6 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Urban_science)
 Source: [Smart Cities, European Comission](https://commission.europa.eu/eu-regional-and-urban-development/topics/cities-and-urban-development/city-initiatives/smart-cities_en)
 :::
 
-## Smart cities {auto-animate="true"}
-
-<br/>
-
-**United Nations Thematic Areas**
-
--   Inclusive cities - equal access to services, increase safety
-
--   Sustainable cities - limited resources in most efficient manner
-
--   Adaptable cities - mitigate and adapt, air pollution, climate change
-
-::: {style="font-size: 60%;"}
-Source: [Smart Cities](https://www.undp.org/sgtechcentre/smart-cities-1#:~:text=Smart%20cities%20use%20technology%20and,as%20a%20leading%20smart%20city.)
-:::
-
-## Smart cities
-
-<br/>
-
-**United Nations Thematic Areas**
-
--   Inclusive cities - equal access to services, increase safety
-
--   Sustainable cities - limited resources in most efficient manner
-
--   Adaptable cities - mitigate and adapt, air pollution, climate change
-
-::: {style="font-size: 60%;"}
-Source: [Smart Cities](https://www.undp.org/sgtechcentre/smart-cities-1#:~:text=Smart%20cities%20use%20technology%20and,as%20a%20leading%20smart%20city.)
-:::
 
 ## Urban system science approach:
 
@@ -251,9 +219,6 @@ Ran 4 scenarios:
 :::
 :::
 
-## An example....UHI
-
-![](img/planning_process.png){fig-align="center" width="1000"}
 
 ## Part 2: Spatial data {.center}
 
@@ -320,13 +285,10 @@ Ran 4 scenarios:
 
 ## Data contamination / manipulation
 
-**Data can often misrepresented, even from *trusted* sources**
+\
 
 ![](img/canada_election.png){fig-align="center"}
 
-## Data contamination / manipulation
-
-Russian tweets
 
 ## Ok, what about **geographic data** {.center}
 
@@ -642,20 +604,6 @@ Source: [Brunsdon and Comber, 2021](https://link.springer.com/article/10.1007/s1
 :::
 
 
-## Design and outputs
-
--   Course divided into two parts:
-    -   Part 1: GIS tools
-    -   Part 2: GIS analysis
-
-In part 2 we shift from **subject based to problem based** learning....
-
-Each practical answers a question....
-
-::: fragment
-> What are the factors that might lead to variation in Average GCSE point scores across the city?
-:::
-
 ## 1c. Design and outputs
 
 > It is not enough to simply give students some material and hope they will immediately learn it. **Learning happens by doing**
@@ -677,34 +625,25 @@ Weekly homework that we dedicate time to discussing
 ![](img/left-join.gif){fig-align="center" width="300"}
 :::
 
+## 1c. Design and output
 
-## 2. Make it mandatory for the assessment
+##### Part 2: GIS analysis
 
-##### Previous iterations
 
-> Your task is to carry out a mini research project which answers a pertinent or topical geo-spatial question
+In part 2 we shift from **subject based to problem based** learning....
+
+Each practical answers a question....
 
 ::: fragment
-::: {.callout-note collapse="false" appearance="default" icon="true"}
-Students struggled to come up with a question, source data and apply it
-
--   Plagiarism
-
--   Poor applications
-
--   Very unbalanced reports
+> What are the factors that might lead to variation in Average GCSE point scores across the city?
 :::
-:::
+
+
 
 ## What are we assessing? {.center}
 
 ## Can they apply the tools / methods with different scenarios and data ? {.center}
 
-##  {.center}
-
-### Practice exam (weeks 5-10), 10% {.center}
-
-### Final exam (6 hour open book), 90% {.center}
 
 ## 2. Make it mandatory for the assessment
 
@@ -720,6 +659,23 @@ Data:
 
 -   [List of evictions](https://data.cityofnewyork.us/City-Government/Evictions/6z8x-wfk4)
 -   [New York City community districts](https://data.cityofnewyork.us/City-Government/Community-Districts/yfnk-k7r4)
+
+## 2. Make it mandatory for the assessment
+
+#### DISCUSS
+
+* How were the evictions recorded 
+
+* Why were there limited evictions during 2020/ then a sudden peak? - COVID ban on evictions 
+
+* How can identifying spatially related factors to evictions be useful
+
+* Are there certain areas that have higher evictions than others - why might this be?
+
+* What assumption does the data make
+
+* What assumptions does the model make
+
 
 ## 2. Make it mandatory for the assessment
 
@@ -818,7 +774,3 @@ End of exam
 \
 
 ### Consider **what needs** assessing
-
-## 
-
-![](img/CASA-Social-Image-1.jpg){fig-align="center"}
