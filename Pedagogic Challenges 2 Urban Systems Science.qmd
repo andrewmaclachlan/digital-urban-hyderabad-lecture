@@ -30,27 +30,28 @@ logo: "img/CASA_logo.png"
 
 ## Talk overview
 
-::: columns
-::: {.column width="49%"}
--   Urban systems science?
+<br/>
 
--   Spatial data
+**Discipline background**
+
+-   Part 1: Urban systems science?
+
+-   Part 2: Spatial data
+
+<br/>
 
 **Pedagogic challenges**
 
--   Data contamination / manipulation
+-   Part 3: Data contamination / manipulation
 
--   Big data
+-   Part 4: Big data
 
--   Reproducibility
-:::
+-   Part 5: Reproducibility
 
-::: {.column width="49%"}
-```{=html}
-<iframe width="780" height="500" src="https://andrewmaclachlan.github.io/CASA0005repo/" title="Quarto Documentation"></iframe>
-```
-:::
-:::
+-   Part 6: Teaching criticality, data bias, reproducibility
+
+
+
 
 ## Who am i
 
@@ -512,29 +513,19 @@ Source: [Why should you care about PostGIS? --- A gentle introduction to spatial
 
 ![](img/PostGIS_logo.png){fig-align="center"}
 
-## Starting 
+## Starting
 
-* Despite all these tools we must start with the basics.
+-   Despite all these tools we must start with the basics.
 
-* Often this is in Quantum GIS (free) or ArcMap($)
+-   Often this is in Quantum GIS (free) or ArcMap(\$)
 
-* We will be exploring QGIS in the workshop later
+-   We will be exploring QGIS in the workshop later
+
+![](img/QGIS.png){fig-align="center" width="773"}
 
 ## Pedagogic challenges {.center}
 
 ### Part 5: Reproducibility {.center}
-
-## Agendas {.center}
-
-### Teaching
-
--   Empower students to become leading activists in urban spatial science
-
--   Equip students with spatial skills for the interpretation of urban data leading to data-informed decisions
-
--   Instill critical thought based on a solid theoretical and technical foundation to see through *buzz words and hype* that are often associated with smart cities / urban analytics.
-
-## Being able to **reproduce content is essential to these** {.center}
 
 ## What led me here? {.center}
 
@@ -551,10 +542,6 @@ Source: [Why should you care about PostGIS? --- A gentle introduction to spatial
 :::
 
 ## Ok, what about **geographic data** {.center}
-
-## 
-
-![](img/Chris-Brunsdon.jpg){fig-align="center" width="800" height="560"}
 
 ## A shifting landscape
 
@@ -578,35 +565,56 @@ Source: [Brunsdon and Comber, 2021](https://link.springer.com/article/10.1007/s1
 :::
 :::
 
-## 
 
-![](img/jack-dangermond.jpg){fig-align="center"}
+## Part 6: Teaching criticality, data bias, reproducibility {.center}
 
-## How do I teach reproducibility and data bias awareness {.center}
+
+::: columns
+::: {.column width="49%"}
+\
+
+* Data criticality
 
 \
 
+* Bias awareness 
+
+\
+
+* Reproducibility 
+:::
+
+::: {.column width="49%"}
 ::: fragment
-### 1. Lead by example
+
+::: fragment
+\
+
+* 1. Lead by example
 :::
 
 \
 
 ::: fragment
-### 1b. Listen to Alumni / employers
+* 1b. Listen to Alumni / employers
 :::
 
 \
 
 ::: fragment
-### 1c. Learn by doing
+* 1c. Learn by doing
 :::
 
 \
 
 ::: fragment
-### 2. Don't assess it, **make it mandatory for the assessment\***
+* 2. Don't assess it, **make it mandatory for the assessment\***
 :::
+:::
+:::
+:::
+
+
 
 ## Lead by example
 
@@ -615,29 +623,13 @@ Source: [Brunsdon and Comber, 2021](https://link.springer.com/article/10.1007/s1
 -   Used ArcGIS 💰
 
     ![](img/old_pracs.png){fig-align="center" width="700"}
+    
+    
+## Lead by example
 
-## 1. Lead by example
-
-Problems:
-
-::: fragment
--   Static
--   Require updates with software / data
-:::
-
-::: fragment
--   Material is in a pdf
--   Not easily searchable, limits it to a *one time use*
-:::
-
-::: fragment
--   A lot of time invested
--   Only used by students on the module
-:::
-
-::: fragment
-> alumni, academia and industry value programmatic and importantly reproducible GIS analysis
-:::
+```{=html}
+<center><iframe width="800" height="500" src="https://andrewmaclachlan.github.io/CASA0005repo/" title="Quarto Documentation"></iframe></center>
+```
 
 ## 1b. Listen to Alumni / employers
 
@@ -649,11 +641,7 @@ Problems:
 ![](img/job_3.png){.fragment}
 :::
 
-## Design and outputs
 
-```{=html}
-<center><iframe width="800" height="500" src="https://andrewmaclachlan.github.io/CASA0005repo/" title="Quarto Documentation"></iframe></center>
-```
 ## Design and outputs
 
 -   Course divided into two parts:
@@ -689,19 +677,6 @@ Weekly homework that we dedicate time to discussing
 ![](img/left-join.gif){fig-align="center" width="300"}
 :::
 
-## 
-
-::: r-stack
-![](img/sf.png){fig-align="center" width="700"}
-
-![](img/dragon_regression.png){.fragment fig-align="center" width="700"}
-
-![](img/kmeans_1.jpg){.fragment fig-align="center" width="700"}
-:::
-
-::: {style="font-size: 60%;"}
-Source: [Allison Horst](https://allisonhorst.com/)
-:::
 
 ## 2. Make it mandatory for the assessment
 

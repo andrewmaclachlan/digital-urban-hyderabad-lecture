@@ -312,7 +312,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#talk-overview",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Talk overview",
-    "text": "Talk overview\n\n\n\nUrban systems science?\nSpatial data\n\nPedagogic challenges\n\nData contamination / manipulation\nBig data\nReproducibility"
+    "text": "Talk overview\n\nDiscipline background\n\nPart 1: Urban systems science?\nPart 2: Spatial data\n\n\nPedagogic challenges\n\nPart 3: Data contamination / manipulation\nPart 4: Big data\nPart 5: Reproducibility\nPart 6: Teaching criticality, data bias, reproducibility"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#who-am-i",
@@ -417,7 +417,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#lead-by-example-1",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Lead by example",
-    "text": "Lead by example\n\nTraditional labs and were distributed in pdfs, word documents and powerpoints.\nUsed ArcGIS 💰"
+    "text": "Lead by example"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#lead-by-example-2",
@@ -438,7 +438,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#design-and-outputs",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Design and outputs",
-    "text": "Design and outputs"
+    "text": "Design and outputs\n\nCourse divided into two parts:\n\nPart 1: GIS tools\nPart 2: GIS analysis\n\n\nIn part 2 we shift from subject based to problem based learning….\nEach practical answers a question….\n\n\nWhat are the factors that might lead to variation in Average GCSE point scores across the city?"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#design-and-outputs-1",
@@ -648,7 +648,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#section-7",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "",
-    "text": "DuckDB\nPostGIS\nEarth Engine"
+    "text": "Practice exam (weeks 5-10), 10%\nFinal exam (6 hour open book), 90%"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#section-1",
@@ -662,7 +662,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#section-8",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "",
-    "text": "Source: Allison Horst"
+    "text": "Pedagogic challenges 2: urban systems science • Andy MacLachlan"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#urban-systems-science-1",
@@ -676,14 +676,14 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#section-9",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "",
-    "text": "Source: Allison Horst"
+    "text": "Pedagogic challenges 2: urban systems science • Andy MacLachlan"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#section-10",
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#section-10",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "",
-    "text": "Practice exam (weeks 5-10), 10%\nFinal exam (6 hour open book), 90%"
+    "text": "Pedagogic challenges 2: urban systems science • Andy MacLachlan"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#section-11",
@@ -971,5 +971,33 @@
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Starting",
     "text": "Starting\n\nDespite all these tools we must start with the basics.\nOften this is in Quantum GIS (free) or ArcMap($)\nWe will be exploring QGIS in the workshop later"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#how-to-teach",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#how-to-teach",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "How to teach…",
+    "text": "How to teach…\n\nData / analysis criticality\nBias awareness\nReproducibility"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#part-6-teaching-criticality-data-bias-reproducibility",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#part-6-teaching-criticality-data-bias-reproducibility",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "Part 6: Teaching criticality, data bias, reproducibility",
+    "text": "Part 6: Teaching criticality, data bias, reproducibility\n\n\n\n\n\nData criticality\n\n\n\n\nBias awareness\n\n\n\n\nReproducibility\n\n\n\n\n\n\n\n\nLead by example\n\n\n\n\n\n\n\n1b. Listen to Alumni / employers\n\n\n\n\n\n\n1c. Learn by doing\n\n\n\n\n\n\n\nDon’t assess it, make it mandatory for the assessment*"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#lead-by-example",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#lead-by-example",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "Lead by example",
+    "text": "Lead by example\n\nTraditional labs and were distributed in pdfs, word documents and powerpoints.\nUsed ArcGIS 💰"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#b.-listen-to-alumni-employers",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#b.-listen-to-alumni-employers",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "1b. Listen to Alumni / employers",
+    "text": "1b. Listen to Alumni / employers"
   }
 ]
