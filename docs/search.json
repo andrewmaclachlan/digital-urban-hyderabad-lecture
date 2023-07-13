@@ -494,7 +494,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#section-5",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "",
-    "text": "Demystifying the Parquet File Format"
+    "text": "Demystifying the Parquet File Format\n\n\n\n\n\nGerrymandering"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#make-it-mandatory-for-the-assessment-1",
@@ -634,7 +634,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#section",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "",
-    "text": "Science of cities\n\nThe science of cities – using evidence to understand how cities work – is forever expanding\n\n\nSource: UK Government\n\nUrban science\n\nUrban science is an interdisciplinary field that studies diverse urban issues and problems\n\n\nSource: Wikipedia"
+    "text": "Tools for Systems Thinkers: The 6 Fundamental Concepts of Systems Thinking"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#section-3",
@@ -732,7 +732,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#urban-system-science-approach",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Urban system science approach:",
-    "text": "Urban system science approach:\n\nUpdated from Grolemund & Wickham's classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations\nThe same as regular data science but with spatial data"
+    "text": "Urban system science approach:\n\nUpdated from Grolemund & Wickham’s classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations\nThe same as regular data science but with spatial data"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#an-example.uhi",
@@ -802,7 +802,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#what-is-spatial-data-2",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "What is spatial data 2?",
-    "text": "What is spatial data 2?\n\n\nGeographic Coordinate Reference System\n\ntreats the globe as if it was a sphere divided into 360 equal parts called degrees\n\n\nProjected Coordinate Reference System\n\nflat, two-dimensional plane (through projecting a spheroid onto a 2D surface) giving it constant lengths, angles and areas"
+    "text": "What is spatial data 2?\n\n\nGeographic Coordinate Reference System\n\ntreats the globe as if it was a sphere divided into 360 equal parts called degrees\n\n\nProjected Coordinate Reference System\n\nflat, two-dimensional plane (through projecting a spheroid onto a 2D surface) giving it constant lengths, angles and areas\n\n\n\n\n\n\n\n\n\n\nCoordiante reference systems"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#simply",
@@ -1040,7 +1040,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#who-has-made-our-boundary-data-2",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Who has made our boundary data?",
-    "text": "Who has made our boundary data?\nGerrymandering\n\n\nEvery 10 years electoral districts are re-drawn “redistricting”– Thomas Hofeller (republican) = PACK and CRACK\n\nPACK = put all the democrat voters in 1 district\nCRACK = sprinkle them out so they never have majority"
+    "text": "Who has made our boundary data?\nGerrymandering\n\n\nEvery 10 years electoral districts are re-drawn “redistricting”– Thomas Hofeller (republican) = PACK and CRACK\n\nPACK = put all the democrat voters in 1 district\nCRACK = sprinkle them out so they never have majority\n\n\n\n\n\nGerrymandering"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#why-are-they-large",

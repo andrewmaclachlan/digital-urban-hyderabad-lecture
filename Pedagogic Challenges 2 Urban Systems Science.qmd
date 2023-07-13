@@ -101,7 +101,7 @@ Source: [Cristiano et al. 2020](https://www.frontiersin.org/articles/10.3389/frs
 
 ## 
 
-[![Tools for Systems Thinkers: The 6 Fundamental Concepts of Systems Thinking](img/system_think.png){fig-align="center" width="350"}](https://medium.com/disruptive-design/tools-for-systems-thinkers-the-6-fundamental-concepts-of-systems-thinking-379cdac3dc6a)
+[![Tools for Systems Thinkers: The 6 Fundamental Concepts of Systems Thinking](img/system_think.png){fig-align="center" width="100"}](https://medium.com/disruptive-design/tools-for-systems-thinkers-the-6-fundamental-concepts-of-systems-thinking-379cdac3dc6a)
 
 ## 
 
@@ -183,7 +183,7 @@ Source: [Smart Cities, European Comission](https://commission.europa.eu/eu-regio
 
 ## Urban system science approach:
 
-[![Updated from Grolemund & Wickham's classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations](img/environmental_data_science_r4ds_general.png)](https://github.com/allisonhorst/stats-illustrations)
+[![Updated from Grolemund & Wickham's classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations](img/environmental_data_science_r4ds_general.png){fig-align="center"}](https://github.com/allisonhorst/stats-illustrations)
 
 > The same as regular data science **but with spatial data**
 
@@ -273,7 +273,7 @@ Ran 4 scenarios:
 ::: {.column width="49%"}
 ![](img/globe.png){fig-align="center" width="317"}
 
-![](img/projected.png){fig-align="center" width="308"}
+[![Coordiante reference systems](img/projected.png){fig-align="center" width="308"}](https://r.geocompx.org/spatial-class.html)
 :::
 :::
 
@@ -335,7 +335,7 @@ Every 10 years electoral districts are re-drawn "redistricting"-- Thomas Hofelle
 :::
 
 ::: {.column width="49%"}
-![](img/gerrymandering.png){fig-align="center" width="300"}
+[![Gerrymandering](img/gerrymandering.png){fig-align="center" width="300"}](https://en.wikipedia.org/wiki/Gerrymandering)
 :::
 :::
 
@@ -401,6 +401,8 @@ Source: [GIS Harvard](https://gis.harvard.edu/gis-data-science-big-data-workstre
 ## 
 
 [![Demystifying the Parquet File Format](img/storage.png){fig-align="center" width="2000"}](https://towardsdatascience.com/demystifying-the-parquet-file-format-13adb0206705)
+
+[![Gerrymandering](img/gerrymandering.png){fig-align="center" width="300"}](https://en.wikipedia.org/wiki/Gerrymandering)
 
 ## 
 
