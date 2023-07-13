@@ -52,10 +52,8 @@ logo: "img/CASA_logo.png"
 
 ## Who am i
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
-
 -   Lecturer in Spatial Data Science and Visualization at CASA, UCL
 
 -   Run our main MSc programme
@@ -69,17 +67,13 @@ logo: "img/CASA_logo.png"
 
     -   [Applications of data for city decisions / sustainability](https://scholar.google.co.uk/citations?user=wLrJwyQAAAAJ&hl=en&oi=sra)
 
-    - Using Big data for allocating funding
-    
+    -   Using Big data for allocating funding
 :::
 
 ::: {.column width="50%"}
-
-  
 ```{=html}
 <center><iframe width="500" height="350" src="https://andrewmaclachlan.github.io/CASA0023/" title="Quarto Documentation"></iframe></center>
-```    
-
+```
 :::
 :::
 
@@ -107,7 +101,7 @@ Source: [Cristiano et al. 2020](https://www.frontiersin.org/articles/10.3389/frs
 
 ## 
 
-![](img/system_think.png){fig-align="center" width="350"}
+[![Tools for Systems Thinkers: The 6 Fundamental Concepts of Systems Thinking](img/system_think.png){fig-align="center" width="350"}](https://medium.com/disruptive-design/tools-for-systems-thinkers-the-6-fundamental-concepts-of-systems-thinking-379cdac3dc6a)
 
 ## 
 
@@ -189,7 +183,7 @@ Source: [Smart Cities, European Comission](https://commission.europa.eu/eu-regio
 
 ## Urban system science approach:
 
-[![Updated from Grolemund & Wickham\'s classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations](img/environmental_data_science_r4ds_general.png)](https://github.com/allisonhorst/stats-illustrations)
+[![Updated from Grolemund & Wickham's classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations](img/environmental_data_science_r4ds_general.png)](https://github.com/allisonhorst/stats-illustrations)
 
 > The same as regular data science **but with spatial data**
 
@@ -319,9 +313,8 @@ Ran 4 scenarios:
     -   People abandon areas
     -   Can't refinance
     -   Less property tax for services
-    -   Social equity issues remain 
+    -   Social equity issues remain
     -   Illegal since 1968 Fair Housing Act
-
 :::
 
 ::: {.column width="49%"}
@@ -393,18 +386,17 @@ Source: [GIS Harvard](https://gis.harvard.edu/gis-data-science-big-data-workstre
 
 #### Parquet files
 
-
 -   We are moving from row based storage **to column based**
 
 -   About 50x faster than a .csv
 
--   It groups our data. 
+-   It groups our data.
 
-    - For example a row group size of 2, puts rows all the data from 1 and 2 next to each other **then** we have 3! = GROUPS or PARTITION
+    -   For example a row group size of 2, puts rows all the data from 1 and 2 next to each other **then** we have 3! = GROUPS or PARTITION
 
-    - If we have large data this means we can skip groups we don't need
+    -   If we have large data this means we can skip groups we don't need
 
-![](img/parquet-logo.png){height=150px fig-align="center"}
+![](img/parquet-logo.png){height="150px" fig-align="center"}
 
 ## 
 
@@ -462,7 +454,7 @@ Source: [Christophe Nicault](https://www.christophenicault.com/post/large_datafr
 
 ## Postgres
 
-![](img/Postgresql_elephant.svg.png){height=300px fig-align="center"}
+![](img/Postgresql_elephant.svg.png){height="300px" fig-align="center"}
 
 ## Postgres
 
@@ -492,9 +484,10 @@ Source: [Why should you care about PostGIS? --- A gentle introduction to spatial
 :::
 
 ## PostGIS
+
 <br/>
 
-![](img/PostGIS_logo.png){height=300px fig-align="center"}
+![](img/PostGIS_logo.png){height="300px" fig-align="center"}
 
 ## Starting
 
@@ -579,6 +572,7 @@ Source: [Brunsdon and Comber, 2021](https://link.springer.com/article/10.1007/s1
     2.  Don't assess it, **make it mandatory for the assessment\***
 :::
 :::
+
 :::
 
 ## Lead by example
@@ -618,15 +612,12 @@ Weekly homework that we dedicate time to discussing
 ## 1c. Design and output
 
 ::: fragment
-
 ##### Part 1: GIS tools...subject based learning
 
-> You need calculate the average percent of science students (in all) grades per county meeting the required standards 
-
+> You need calculate the average percent of science students (in all) grades per county meeting the required standards
 :::
 
 ::: fragment
-
 ##### Part 2: GIS analysis... problem based learning
 
 Each practical answers a question....
@@ -635,25 +626,22 @@ Each practical answers a question....
 :::
 
 ## What are we assessing? {.center}
+
 \
 
 ::: fragment
-
 ### Can students apply the tools / methods with different scenarios and data ? {.center}
 :::
 
 \
 
 ::: fragment
-
 ### Can students critique the process {.center}
-
 :::
 
 ## 2. Make it mandatory for the assessment
 
 ##### Part 2: GIS analysis
-
 
 ##### Example practice question
 
@@ -680,7 +668,6 @@ Data:
 
 -   What assumptions does the model make
 
-
 ## 2. Make it mandatory for the assessment
 
 Students
@@ -704,7 +691,6 @@ Students
 #### Global use and interaction with the resource
 
 ![](img/global_users.png){fig-align="center"}
-
 
 ## Conclusion
 
