@@ -361,7 +361,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#a-shifting-landscape",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "A shifting landscape",
-    "text": "A shifting landscape\n\n\nPaper: Opening practice: supporting reproducibility and critical spatial data science\n\nA comparison of Geographical Weighted regression across:\n\n4 open software packages\n2 black box / commercial implementations\n\n\n\n\n\nAll of the implementations were tested with the same input data. They all gave the same results except the ESRI/ArcGIS implementation (Li 2018), and although ESRI provide help for the GWR tools, the actual coding is closed—the underlying code is not revealed\n\n\nSource: Brunsdon and Comber, 2021"
+    "text": "A shifting landscape\n\n\nPaper: Opening practice: supporting reproducibility and critical spatial data science\n\nA comparison of Geographical Weighted regression across:\n\n4 open software packages\n2 black box / commercial implementations\n\n\n\n\nAll of the implementations were tested with the same input data.\n\n\nThey all gave the same results except the ESRI/ArcGIS implementation (Li 2018)\n\n\nand although ESRI provide help for the GWR tools, the actual coding is closed—the underlying code is not revealed\n\nSource: Brunsdon and Comber, 2021"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#a-slight-tangent",
