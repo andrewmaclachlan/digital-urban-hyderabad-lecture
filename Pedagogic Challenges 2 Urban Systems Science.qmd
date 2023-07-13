@@ -50,21 +50,38 @@ logo: "img/CASA_logo.png"
 
 -   Part 6: Teaching criticality, data bias, reproducibility
 
-
-
-
 ## Who am i
 
--   Lecturer in Spatial Data Science and Visualization at CASA, UCL
+:::: {.columns}
 
--   Human Geographer
+::: {.column width="50%"}
+
+-   Lecturer in Spatial Data Science and Visualization at CASA, UCL
 
 -   Run our main MSc programme
 
 -   Lead MSc modules in:
 
-    -   Geographic information systems and science
-    -   Remotely sensing cities and environments
+    -   [Geographic information systems and science](https://andrewmaclachlan.github.io/CASA0005repo/)
+    -   [Remotely sensing cities and environments](https://andrewmaclachlan.github.io/CASA0023/)
+
+-   Research:
+
+    -   [Applications of data for city decisions / sustainability](https://scholar.google.co.uk/citations?user=wLrJwyQAAAAJ&hl=en&oi=sra)
+
+    - Using Big data for allocating funding
+    
+:::
+
+::: {.column width="50%"}
+
+  
+```{=html}
+<center><iframe width="500" height="350" src="https://andrewmaclachlan.github.io/CASA0023/" title="Quarto Documentation"></iframe></center>
+```    
+
+:::
+:::
 
 ## Part 1: Urban systems science ? {.center}
 
@@ -72,7 +89,7 @@ logo: "img/CASA_logo.png"
 
 <br/>
 
-### Urban systems
+### Urban systems {auto-animate="true"}
 
 > A set of towns and cities \[*or **functions** within cities*\] that can be considered **linked together by various forms of social and economic interaction**
 
@@ -161,6 +178,7 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Urban_science)
 **=**
 :::
 :::
+
 <br/> <br/>
 
 **Smart Cities**: networks and services are made more efficient with the use of digital solutions for the benefit of its inhabitants and business.
@@ -169,30 +187,25 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Urban_science)
 Source: [Smart Cities, European Comission](https://commission.europa.eu/eu-regional-and-urban-development/topics/cities-and-urban-development/city-initiatives/smart-cities_en)
 :::
 
-
 ## Urban system science approach:
 
-[![Updated from Grolemund & Wickham's classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations](img/environmental_data_science_r4ds_general.png)](https://github.com/allisonhorst/stats-illustrations)
+[![Updated from Grolemund & Wickham\'s classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations](img/environmental_data_science_r4ds_general.png)](https://github.com/allisonhorst/stats-illustrations)
 
 > The same as regular data science **but with spatial data**
 
-## An example....UHI
+## An example..Urban Heat Island effect
 
-<br/>
-
-### Fremantle Woolstore, Western Australia
-
-<br/>
+#### Fremantle Woolstore, Western Australia
 
 ::: columns
 ::: {.column width="49%"}
-![](img/woolstore.png){fig-align="center" width="594"}
+![](img/woolstore.png){fig-align="center" width="423"}
 
-![](img/woolstore_2.png){fig-align="center" width="548"}
+![](img/woolstore_2.png){fig-align="center" width="430"}
 :::
 
 ::: {.column width="49%"}
-![](img/woolstore_3.png){fig-align="center" width="548"}
+![](img/woolstore_3.png){fig-align="center" width="467"}
 :::
 :::
 
@@ -208,10 +221,10 @@ Ran 4 scenarios:
 
 ::: columns
 ::: {.column width="49%"}
-1.  Original (existing) development (from satellite imagery)
-2.  Proposed redevelopment as in the plan
-3.  Proposed redevelopment removing trees
-4.  Proposed redevelopment with trees covering the hottest pixels
+1.  **Original** (existing) development (from satellite imagery)
+2.  Proposed redevelopment as in **the plan**
+3.  Proposed redevelopment **removing trees**
+4.  Proposed redevelopment with trees **covering the hottest pixels**
 :::
 
 ::: {.column width="49%"}
@@ -219,20 +232,19 @@ Ran 4 scenarios:
 :::
 :::
 
-
-## Part 2: Spatial data {.center}
-
 ## How smart are cities?
 
 <br/>
 
 <p align="center">
 
-<iframe width="900" height="700" src="https://www.youtube.com/embed/k5eL_al_m7Q?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+<iframe width="800" height="550" src="https://www.youtube.com/embed/k5eL_al_m7Q?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
 </iframe>
 
 </p>
+
+## Part 2: Spatial data {.center}
 
 ## What is spatial data?
 
@@ -265,7 +277,9 @@ Ran 4 scenarios:
 :::
 
 ::: {.column width="49%"}
-![](img/globe.png){fig-align="center" width="401"} ![](img/projected.png){fig-align="center" width="400"}
+![](img/globe.png){fig-align="center" width="317"}
+
+![](img/projected.png){fig-align="center" width="308"}
 :::
 :::
 
@@ -275,9 +289,9 @@ Ran 4 scenarios:
 
 ## Simply
 
-> Spatial data is just like normal data exepct it has an extra "geometry column"
+> Spatial data is just like normal data except it has an extra "geometry column"
 
-[![Spatial data. Source: Manifold Viewer](img/geometry_col.png)](https://manifold.net/doc/mfd9/spatial_data.htm)
+[![Spatial Data](img/geometry_col.png){fig-align="center" width="546" height="244"}](https://manifold.net/doc/mfd9/spatial_data.htm)
 
 ## Pedagogic challenges {.center}
 
@@ -289,23 +303,25 @@ Ran 4 scenarios:
 
 ![](img/canada_election.png){fig-align="center"}
 
-
 ## Ok, what about **geographic data** {.center}
 
 ## Who has made our *boundary* data? {.center}
 
 ## Who has ~~made~~ manipulated our *boundary* data? {.center}
 
-## Who has manipulated our *boundary* data?
+## Who has made our *boundary* data?
 
 #### Redlining
 
 ::: columns
 ::: {.column width="49%"}
 -   1930s -- American Home Owner's Loan Corporation -- prevent missed payments...residential security maps **based on race**
-    -   People abandon redlined areas
+    -   People abandon areas
     -   Can't refinance
     -   Less property tax for services
+    -   Social equity issues remain 
+    -   Illegal since 1968 Fair Housing Act
+
 :::
 
 ::: {.column width="49%"}
@@ -313,7 +329,7 @@ Ran 4 scenarios:
 :::
 :::
 
-## Who has manipulated our *boundary* data?
+## Who has made our *boundary* data?
 
 #### Gerrymandering
 
@@ -346,21 +362,22 @@ Every 10 years electoral districts are re-drawn "redistricting"-- Thomas Hofelle
 
 ### Part 4: Big Data {.center}
 
-## Big data
+## Big data {.center}
 
-> Big geospatial data include datasets that are too large to be processed using traditional GIS tools
+> Big geospatial data include datasets that are too large to be processed using **traditional GIS tools**
 
 ::: {style="font-size: 60%;"}
 Source: [GIS Harvard](https://gis.harvard.edu/gis-data-science-big-data-workstream-cga)
 :::
 
-### Why are they large?
+## Why are they large?
 
 **Raster**
 
 -   Landsat satellite data: 400 scenes of Earth a day, revising each location every 16 days
 
     -   Each scene is about 1GB
+    -   We'd used Google Earth Engine - not considered here
 
 **Vector**
 
@@ -376,13 +393,18 @@ Source: [GIS Harvard](https://gis.harvard.edu/gis-data-science-big-data-workstre
 
 #### Parquet files
 
--   We are moving from row based storage to column based
+
+-   We are moving from row based storage **to column based**
 
 -   About 50x faster than a .csv
 
--   It groups our data. For example a row group size of 2, puts rows all the data from 1 and 2 next to each other **then** we have 3! = GROUPS or PARTITION
+-   It groups our data. 
 
--   If we have large data this means we can skip groups we don't need
+    - For example a row group size of 2, puts rows all the data from 1 and 2 next to each other **then** we have 3! = GROUPS or PARTITION
+
+    - If we have large data this means we can skip groups we don't need
+
+![](img/parquet-logo.png){height=150px fig-align="center"}
 
 ## 
 
@@ -396,9 +418,7 @@ Source: [GIS Harvard](https://gis.harvard.edu/gis-data-science-big-data-workstre
 
 -   You may come across **Arrow** - this is an in-memory format, **Parquet** is a storage format
 
--   The primary difference in using this is we write some code then apply the code to the storage files
-
--   Afterwards we **collect** the results...
+ 
 
 -   In the R for Data Science book a 9BG `.csv` is queried in
 
@@ -409,7 +429,7 @@ Source: [GIS Harvard](https://gis.harvard.edu/gis-data-science-big-data-workstre
 
 <br/>
 
-\[![DuckDB](img/duck.jpg){fig-align="center" width="2000"}\]
+![DuckDB](img/duck.jpg){fig-align="center" width="402"}
 
 ## DuckDB
 
@@ -428,23 +448,23 @@ to_arrow()
 
 > Regarding performance, parquet is 717 times faster than the same query on a csv file, and duckdb is 2808 times faster.
 
--   All make sure of `dplyr` ! `select()`, `filter()`, `groupby()` = direct integration with R
-
 ::: {style="font-size: 60%;"}
 Source: [Christophe Nicault](https://www.christophenicault.com/post/large_dataframe_arrow_duckdb/)
 :::
 
-## Problems
+## Notes
 
--   Currently the support for spatial data is very limited limited
+-   All (parquet and DuckDB) make sure of `dplyr` ! `select()`, `filter()`, `groupby()` = direct integration with R
+
+-   Currently the **support for spatial data** is very limited
 
 -   [sfarrow](https://wcjochem.github.io/sfarrow/articles/example_sfarrow.html) - can load and query the data but can't do any analysis!
 
 ## Postgres
 
-![](img/Postgresql_elephant.svg.png){fig-align="center" width="482"}
+![](img/Postgresql_elephant.svg.png){height=300px fig-align="center"}
 
-## PostGIS
+## Postgres
 
 -   PostgreSQL = object-relational database
 
@@ -472,8 +492,9 @@ Source: [Why should you care about PostGIS? --- A gentle introduction to spatial
 :::
 
 ## PostGIS
+<br/>
 
-![](img/PostGIS_logo.png){fig-align="center"}
+![](img/PostGIS_logo.png){height=300px fig-align="center"}
 
 ## Starting
 
@@ -483,7 +504,7 @@ Source: [Why should you care about PostGIS? --- A gentle introduction to spatial
 
 -   We will be exploring QGIS in the workshop later
 
-![](img/QGIS.png){fig-align="center" width="773"}
+![](img/QGIS.png){fig-align="center" width="558"}
 
 ## Pedagogic challenges {.center}
 
@@ -527,56 +548,38 @@ Source: [Brunsdon and Comber, 2021](https://link.springer.com/article/10.1007/s1
 :::
 :::
 
-
 ## Part 6: Teaching criticality, data bias, reproducibility {.center}
 
-
-::: columns
-::: {.column width="49%"}
-\
-
-* Data criticality
-
-\
-
-* Bias awareness 
-
-\
-
-* Reproducibility 
-:::
-
-::: {.column width="49%"}
 ::: fragment
-
 ::: fragment
 \
 
-* 1. Lead by example
+-   
+
+    1.  Lead by example
 :::
 
 \
 
 ::: fragment
-* 1b. Listen to Alumni / employers
+-   1b. Listen to Alumni / employers
 :::
 
 \
 
 ::: fragment
-* 1c. Learn by doing
+-   1c. Learn by doing
 :::
 
 \
 
 ::: fragment
-* 2. Don't assess it, **make it mandatory for the assessment\***
-:::
-:::
-:::
-:::
+-   
 
-
+    2.  Don't assess it, **make it mandatory for the assessment\***
+:::
+:::
+:::
 
 ## Lead by example
 
@@ -585,14 +588,12 @@ Source: [Brunsdon and Comber, 2021](https://link.springer.com/article/10.1007/s1
 -   Used ArcGIS 💰
 
     ![](img/old_pracs.png){fig-align="center" width="700"}
-    
-    
+
 ## Lead by example
 
 ```{=html}
 <center><iframe width="800" height="500" src="https://andrewmaclachlan.github.io/CASA0005repo/" title="Quarto Documentation"></iframe></center>
 ```
-
 ## 1b. Listen to Alumni / employers
 
 ::: r-stack
@@ -603,10 +604,9 @@ Source: [Brunsdon and Comber, 2021](https://link.springer.com/article/10.1007/s1
 ![](img/job_3.png){.fragment}
 :::
 
-
 ## 1c. Design and outputs
 
-> It is not enough to simply give students some material and hope they will immediately learn it. **Learning happens by doing**
+> **Learning happens by doing**
 
 \
 
@@ -617,39 +617,43 @@ Weekly homework that we dedicate time to discussing
 
 ## 1c. Design and output
 
-##### Part 1: GIS tools...
-
-> You need calculate the average percent of science students (in all) grades per county meeting the required standards and produce a map to show where the Country averages are above or below the State of Washington average.
-
 ::: fragment
-![](img/left-join.gif){fig-align="center" width="300"}
+
+##### Part 1: GIS tools...subject based learning
+
+> You need calculate the average percent of science students (in all) grades per county meeting the required standards 
+
 :::
 
-## 1c. Design and output
+::: fragment
 
-##### Part 2: GIS analysis
-
-
-In part 2 we shift from **subject based to problem based** learning....
+##### Part 2: GIS analysis... problem based learning
 
 Each practical answers a question....
 
-::: fragment
 > What are the factors that might lead to variation in Average GCSE point scores across the city?
 :::
 
-
-
 ## What are we assessing? {.center}
+\
 
-## Can they apply the tools / methods with different scenarios and data ? {.center}
+::: fragment
 
+### Can students apply the tools / methods with different scenarios and data ? {.center}
+:::
+
+\
+
+::: fragment
+
+### Can students critique the process {.center}
+
+:::
 
 ## 2. Make it mandatory for the assessment
 
 ##### Part 2: GIS analysis
 
-\
 
 ##### Example practice question
 
@@ -664,34 +668,18 @@ Data:
 
 #### DISCUSS
 
-* How were the evictions recorded 
+-   How were the evictions recorded
 
-* Why were there limited evictions during 2020/ then a sudden peak? - COVID ban on evictions 
+-   Why were there limited evictions during 2020/ then a sudden peak? - COVID ban on evictions
 
-* How can identifying spatially related factors to evictions be useful
+-   How can identifying spatially related factors to evictions be useful
 
-* Are there certain areas that have higher evictions than others - why might this be?
+-   Are there certain areas that have higher evictions than others - why might this be?
 
-* What assumption does the data make
+-   What assumption does the data make
 
-* What assumptions does the model make
+-   What assumptions does the model make
 
-
-## 2. Make it mandatory for the assessment
-
-![](img/githubclassroom1.png){fig-align="center"}
-
-## 2. Make it mandatory for the assessment
-
-GitHub classroom - setup
-
--   Create a template repository "submission"
-
--   Import to an "organisation" - shared folder that staff can access
-
--   GitHub classroom creates a URL for the template
-
-![](img/template.png){fig-align="center" width="612"}
 
 ## 2. Make it mandatory for the assessment
 
@@ -702,18 +690,6 @@ Students
 -   Staff can see their work and when they make edits (commit / push)
 
 ![](img/student_repo.png){fig-align="center" width="593"}
-
-## 2. Make it mandatory for the assessment
-
-End of exam
-
--   Bulk download through the GitHub classroom desktop application
-
--   Run the student's code locally
-
--   See how often the student edited the code
-
-![](img/assistant.png){fig-align="center"}
 
 ## Outcomes
 
@@ -729,30 +705,7 @@ End of exam
 
 ![](img/global_users.png){fig-align="center"}
 
-## Current advancements
 
-\
-
-### New term 2 module - Remotely sensing cities and environments
-
-\
-
-::: fragment
-#### Presentation hosted online - Xaringan
-
-#### Weekly online portfolio - Quarto
-:::
-
-## Tools are expected not assessed
-
-```{=html}
-<center><iframe width="780" height="500" src="https://hilmanpr21.github.io/CASA0023_group-presentation/?panelset1=social2#1" title="Quarto Documentation"></iframe></center>
-```
-## Tools are expected not assessed
-
-```{=html}
-<center><iframe width="800" height="600" src="https://vtesniere.github.io/CASA0023_book/" title="Quarto Documentation"></iframe></center>
-```
 ## Conclusion
 
 \
