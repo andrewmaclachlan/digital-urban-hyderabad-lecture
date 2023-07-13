@@ -1,6 +1,7 @@
 ---
 format: 
     revealjs:
+      auto-stretch: false
       include-in-header: [assets/header.html]
       chalkboard: true
       slide-number: c/t
@@ -101,7 +102,7 @@ Source: [Cristiano et al. 2020](https://www.frontiersin.org/articles/10.3389/frs
 
 ## 
 
-[![Tools for Systems Thinkers: The 6 Fundamental Concepts of Systems Thinking](img/system_think.png){fig-align="center" width="921" height="553"}](https://medium.com/disruptive-design/tools-for-systems-thinkers-the-6-fundamental-concepts-of-systems-thinking-379cdac3dc6a)
+[![Tools for Systems Thinkers: The 6 Fundamental Concepts of Systems Thinking](img/system_think.png){fig-align="center" width="100%"}](https://medium.com/disruptive-design/tools-for-systems-thinkers-the-6-fundamental-concepts-of-systems-thinking-379cdac3dc6a)
 
 ## 
 
@@ -183,7 +184,7 @@ Source: [Smart Cities, European Comission](https://commission.europa.eu/eu-regio
 
 ## Urban system science approach:
 
-[![Updated from Grolemund & Wickham\'s classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations](img/environmental_data_science_r4ds_general.png){fig-align="center" width="634" height="343"}](https://github.com/allisonhorst/stats-illustrations)
+[![Updated from Grolemund & Wickham's classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations](img/environmental_data_science_r4ds_general.png){fig-align="center" width="55%"}](https://github.com/allisonhorst/stats-illustrations)
 
 > The same as regular data science **but with spatial data**
 
@@ -207,7 +208,7 @@ Source: [Smart Cities, European Comission](https://commission.europa.eu/eu-regio
 
 <br/>
 
-![](img/woolstore_plans.png){fig-align="center" width="548"}
+![](img/woolstore_plans.png){fig-align="center" width="75%"}
 
 ## An example....UHI
 
@@ -279,13 +280,13 @@ Ran 4 scenarios:
 
 ## 
 
-![](img/flat_earth.png){fig-align="center" width="401"}
+![](img/flat_earth.png){fig-align="center" width="75%"}
 
 ## Simply
 
 > Spatial data is just like normal data except it has an extra "geometry column"
 
-[![Spatial Data](img/geometry_col.png){fig-align="center" width="546" height="244"}](https://manifold.net/doc/mfd9/spatial_data.htm)
+![](img/geometry_col.png){fig-align="center" width="75%"}
 
 ## Pedagogic challenges {.center}
 
@@ -295,7 +296,7 @@ Ran 4 scenarios:
 
 \
 
-![](img/canada_election.png){fig-align="center"}
+![](img/canada_election.png){fig-align="center" width="70%"}
 
 ## Ok, what about **geographic data** {.center}
 
@@ -349,7 +350,7 @@ Every 10 years electoral districts are re-drawn "redistricting"-- Thomas Hofelle
 
 ## 
 
-![](img/district12.png)
+![](img/district12.png){fig-align="center"}
 
 ## Pedagogic challenges {.center}
 
@@ -404,7 +405,7 @@ Source: [GIS Harvard](https://gis.harvard.edu/gis-data-science-big-data-workstre
 
 ## 
 
-[![New York City Taxi and Limousine Commission (TLC) all records from Yellow and Green Cabs](img/cab_data.png){fig-align="center" width="17.7cm" height="13.9cm"}](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.pag)
+[![New York City Taxi and Limousine Commission (TLC) all records from Yellow and Green Cabs](img/cab_data.png){fig-align="center" width="80%"}](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.pag)
 
 ## Concepts
 
@@ -421,7 +422,7 @@ Source: [GIS Harvard](https://gis.harvard.edu/gis-data-science-big-data-workstre
 
 <br/>
 
-![](img/duck.jpg){fig-align="center" width="402"}
+![](img/duck.jpg){fig-align="center" width="75%"}
 
 ## DuckDB
 
@@ -458,7 +459,7 @@ Source: [Christophe Nicault](https://www.christophenicault.com/post/large_datafr
 
 ## Postgres = object-relational database
 
-[![DVD Rental Model](img/dvd-rental-sample-database-diagram.png){fig-align="center" width="408" height="538"}](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/)
+[![DVD Rental Model](img/dvd-rental-sample-database-diagram.png){fig-align="center" width="45%"}](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/)
 
 ## PostgreSQL has a PostGIS extention {.center}
 
@@ -468,9 +469,7 @@ Source: [Christophe Nicault](https://www.christophenicault.com/post/large_datafr
 
 #### Making random points in polygons
 
-<br/>
-
-[![](img/random_points.png){fig-align="center" width="100%"}](https://freegistutorial.com/how-to-create-random-points-inside-polygon-on-qgis/)
+![](img/random_points.png){fig-align="center" width="31%"}
 
 5 million random points
 
@@ -568,8 +567,6 @@ Source: [Brunsdon and Comber, 2021](https://link.springer.com/article/10.1007/s1
 
     2.  Don't assess it, **make it mandatory for the assessment\***
 :::
-
-
 
 ## 1. Lead by example
 
@@ -676,22 +673,15 @@ Students
 
 ## Conclusion
 
-\
+-   It is essential to use data to inform decisions...BUT we must develop a **critical awareness** of:
 
-### Lead by example
+    -   How the data has been created
+    -   How the boundary data has been created
+    -   What **the agenda** was for collecting the data
 
-\
+-   In addition we must recognize that:
 
-### Learn by doing
+    -   Data is a **snapshot / sample** of the population
+    -   Analysis attempts to **model the world** - it is *never* perfect.
 
-\
-
-### Tools become the norm
-
-\
-
-### Respond to industry requirements
-
-\
-
-### Consider **what needs** assessing
+> Scientists must have a say in the future of cities, McPhearson 2016
