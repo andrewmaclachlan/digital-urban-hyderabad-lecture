@@ -101,7 +101,7 @@ Source: [Cristiano et al. 2020](https://www.frontiersin.org/articles/10.3389/frs
 
 ## 
 
-[![Tools for Systems Thinkers: The 6 Fundamental Concepts of Systems Thinking](img/system_think.png){fig-align="center" width="100"}](https://medium.com/disruptive-design/tools-for-systems-thinkers-the-6-fundamental-concepts-of-systems-thinking-379cdac3dc6a)
+[![Tools for Systems Thinkers: The 6 Fundamental Concepts of Systems Thinking](img/system_think.png){fig-align="center" width="921" height="553"}](https://medium.com/disruptive-design/tools-for-systems-thinkers-the-6-fundamental-concepts-of-systems-thinking-379cdac3dc6a)
 
 ## 
 
@@ -183,7 +183,7 @@ Source: [Smart Cities, European Comission](https://commission.europa.eu/eu-regio
 
 ## Urban system science approach:
 
-[![Updated from Grolemund & Wickham's classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations](img/environmental_data_science_r4ds_general.png){fig-align="center"}](https://github.com/allisonhorst/stats-illustrations)
+[![Updated from Grolemund & Wickham\'s classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations](img/environmental_data_science_r4ds_general.png){fig-align="center" width="634" height="343"}](https://github.com/allisonhorst/stats-illustrations)
 
 > The same as regular data science **but with spatial data**
 
@@ -271,9 +271,9 @@ Ran 4 scenarios:
 :::
 
 ::: {.column width="49%"}
-![](img/globe.png){fig-align="center" width="317"}
+![](img/globe.png){fig-align="center" width="305"}
 
-[![Coordiante reference systems](img/projected.png){fig-align="center" width="308"}](https://r.geocompx.org/spatial-class.html)
+[![Coordiante reference systems](img/projected.png){fig-align="center" width="300"}](https://r.geocompx.org/spatial-class.html)
 :::
 :::
 
@@ -335,7 +335,7 @@ Every 10 years electoral districts are re-drawn "redistricting"-- Thomas Hofelle
 :::
 
 ::: {.column width="49%"}
-[![Gerrymandering](img/gerrymandering.png){fig-align="center" width="300"}](https://en.wikipedia.org/wiki/Gerrymandering)
+[![Gerrymandering](img/gerrymandering.png){fig-align="center" width="275"}](https://en.wikipedia.org/wiki/Gerrymandering)
 :::
 :::
 
@@ -402,11 +402,9 @@ Source: [GIS Harvard](https://gis.harvard.edu/gis-data-science-big-data-workstre
 
 [![Demystifying the Parquet File Format](img/storage.png){fig-align="center" width="2000"}](https://towardsdatascience.com/demystifying-the-parquet-file-format-13adb0206705)
 
-[![Gerrymandering](img/gerrymandering.png){fig-align="center" width="300"}](https://en.wikipedia.org/wiki/Gerrymandering)
-
 ## 
 
-[![New York City Taxi and Limousine Commission (TLC) all records from Yellow and Green Cabs](img/cab_data.png){fig-align="center" width="2000"}](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.pag)
+[![New York City Taxi and Limousine Commission (TLC) all records from Yellow and Green Cabs](img/cab_data.png){fig-align="center" width="17.7cm" height="13.9cm"}](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.pag)
 
 ## Concepts
 
@@ -423,7 +421,7 @@ Source: [GIS Harvard](https://gis.harvard.edu/gis-data-science-big-data-workstre
 
 <br/>
 
-![DuckDB](img/duck.jpg){fig-align="center" width="402"}
+![](img/duck.jpg){fig-align="center" width="402"}
 
 ## DuckDB
 
@@ -458,11 +456,9 @@ Source: [Christophe Nicault](https://www.christophenicault.com/post/large_datafr
 
 ![](img/Postgresql_elephant.svg.png){height="300px" fig-align="center"}
 
-## Postgres
+## Postgres = object-relational database
 
--   PostgreSQL = object-relational database
-
-[![DVD Rental Model](img/dvd-rental-sample-database-diagram.png){fig-align="center" width="793"}](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/)
+[![DVD Rental Model](img/dvd-rental-sample-database-diagram.png){fig-align="center" width="408" height="538"}](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/)
 
 ## PostgreSQL has a PostGIS extention {.center}
 
@@ -546,7 +542,6 @@ Source: [Brunsdon and Comber, 2021](https://link.springer.com/article/10.1007/s1
 ## Part 6: Teaching criticality, data bias, reproducibility {.center}
 
 ::: fragment
-::: fragment
 \
 
 -   
@@ -573,11 +568,10 @@ Source: [Brunsdon and Comber, 2021](https://link.springer.com/article/10.1007/s1
 
     2.  Don't assess it, **make it mandatory for the assessment\***
 :::
-:::
 
-:::
 
-## Lead by example
+
+## 1. Lead by example
 
 -   Traditional labs and were distributed in pdfs, word documents and powerpoints.
 
@@ -585,7 +579,7 @@ Source: [Brunsdon and Comber, 2021](https://link.springer.com/article/10.1007/s1
 
     ![](img/old_pracs.png){fig-align="center" width="700"}
 
-## Lead by example
+## 1. Lead by example
 
 ```{=html}
 <center><iframe width="800" height="500" src="https://andrewmaclachlan.github.io/CASA0005repo/" title="Quarto Documentation"></iframe></center>
@@ -679,20 +673,6 @@ Students
 -   Staff can see their work and when they make edits (commit / push)
 
 ![](img/student_repo.png){fig-align="center" width="593"}
-
-## Outcomes
-
-#### Less (almost no) plagiarism
-
-#### Marks have improved
-
-#### All students learn to use reproducibility tools
-
-#### The tool is not directly assessed
-
-#### Global use and interaction with the resource
-
-![](img/global_users.png){fig-align="center"}
 
 ## Conclusion
 

@@ -416,8 +416,8 @@
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#lead-by-example-1",
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#lead-by-example-1",
     "title": "Pedagogic challenges 2: urban systems science",
-    "section": "Lead by example",
-    "text": "Lead by example"
+    "section": "1. Lead by example",
+    "text": "1. Lead by example"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#lead-by-example-2",
@@ -466,7 +466,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#section-4",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "",
-    "text": "“Redistricting is democracy at work” - Tom Hofeller"
+    "text": "Demystifying the Parquet File Format"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#make-it-mandatory-for-the-assessment",
@@ -494,7 +494,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#section-5",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "",
-    "text": "Demystifying the Parquet File Format\n\n\n\n\n\nGerrymandering"
+    "text": "Demystifying the Parquet File Format"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#make-it-mandatory-for-the-assessment-1",
@@ -732,7 +732,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#urban-system-science-approach",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Urban system science approach:",
-    "text": "Urban system science approach:\n\nUpdated from Grolemund & Wickham’s classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations\nThe same as regular data science but with spatial data"
+    "text": "Urban system science approach:\n\n\n\nUpdated from Grolemund & Wickham's classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations\n\n\n\nThe same as regular data science but with spatial data"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#an-example.uhi",
@@ -844,7 +844,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#we-can-go-faster",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "We can go faster!",
-    "text": "We can go faster!\n\n\nDuckDB"
+    "text": "We can go faster!"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#section-12",
@@ -984,14 +984,14 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#part-6-teaching-criticality-data-bias-reproducibility",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Part 6: Teaching criticality, data bias, reproducibility",
-    "text": "Part 6: Teaching criticality, data bias, reproducibility\n\n\n\n\n\n\nLead by example\n\n\n\n\n\n\n\n1b. Listen to Alumni / employers\n\n\n\n\n\n\n1c. Learn by doing\n\n\n\n\n\n\n\nDon’t assess it, make it mandatory for the assessment*\n\n\n\n\n:::"
+    "text": "Part 6: Teaching criticality, data bias, reproducibility\n\n\n\n\n\nLead by example\n\n\n\n\n\n\n\n1b. Listen to Alumni / employers\n\n\n\n\n\n\n1c. Learn by doing\n\n\n\n\n\n\n\nDon’t assess it, make it mandatory for the assessment*"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#lead-by-example",
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#lead-by-example",
     "title": "Pedagogic challenges 2: urban systems science",
-    "section": "Lead by example",
-    "text": "Lead by example\n\nTraditional labs and were distributed in pdfs, word documents and powerpoints.\nUsed ArcGIS 💰"
+    "section": "1. Lead by example",
+    "text": "1. Lead by example\n\nTraditional labs and were distributed in pdfs, word documents and powerpoints.\nUsed ArcGIS 💰"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#b.-listen-to-alumni-employers",
@@ -1061,6 +1061,20 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#postgres-1",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Postgres",
-    "text": "Postgres\n\nPostgreSQL = object-relational database\n\n\nDVD Rental Model"
+    "text": "Postgres\n\nPostgreSQL = object-relational database\n\n\n\n\nDVD Rental Model"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#system-thinker",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#system-thinker",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "System thinker",
+    "text": "System thinker\n\nTools for Systems Thinkers: The 6 Fundamental Concepts of Systems Thinking"
+  },
+  {
+    "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#postgres-object-relational-database",
+    "href": "Pedagogic Challenges 2 Urban Systems Science.html#postgres-object-relational-database",
+    "title": "Pedagogic challenges 2: urban systems science",
+    "section": "Postgres = object-relational database",
+    "text": "Postgres = object-relational database\n\n\n\nDVD Rental Model"
   }
 ]
