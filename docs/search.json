@@ -319,7 +319,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#who-am-i",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Who am i",
-    "text": "Who am i\n\n\n\nLecturer in Spatial Data Science and Visualization at CASA, UCL\nRun our main MSc programme\nLead MSc modules in:\n\nGeographic information systems and science\nRemotely sensing cities and environments\n\nResearch:\n\nApplications of data for city decisions / sustainability\nUsing Big data for allocating funding"
+    "text": "Who am i\n\n\n\nLecturer in Spatial Data Science and Visualization at CASA, UCL\nLead MSc modules in:\n\nGeographic information systems and science\nRemotely sensing cities and environments\n\nResearch:\n\nApplications of data for city decisions / sustainability\nBig data for allocating funding"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#agendas",
@@ -473,7 +473,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#make-it-mandatory-for-the-assessment",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "2. Make it mandatory for the assessment",
-    "text": "2. Make it mandatory for the assessment\nPart 2: GIS analysis\nExample practice question\n\nNew York City wish to conduct a study that aims to prevent people being evicted through understand possible related factors.You have been enlisted as a consultant and tasked to conduct an analysis of their data from 2020.\n\nData:\n\nList of evictions\nNew York City community districts"
+    "text": "2. Make it mandatory for the assessment\nPart 2: GIS analysis, example practice question\n\nNew York City wish to conduct a study that aims to prevent people being evicted through understand possible related factors.You have been enlisted as a consultant and tasked to conduct an analysis of their data from 2020.\n\nData:\n\nList of evictions\nNew York City community districts"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#what-are-we-assessing",
@@ -599,7 +599,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#what-do-we-mean",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "What do we mean",
-    "text": "What do we mean\n\nUrban systems\n\nA set of towns and cities [or functions within cities] that can be considered linked together by various forms of social and economic interaction\n\n\nSource: Oxford reference\n\nSystems thinking\n\nMethods aimed at studying a system through its collective behavioral features\n\n\nSource: Cristiano et al. 2020"
+    "text": "What do we mean\nUrban systems\n\nA set of towns and cities [or functions within cities] that can be considered linked together by various forms of social and economic interaction\n\n\nSource: Oxford reference\n\nSystems thinking\n\nMethods aimed at studying a system through its collective behavioral features\n\n\nSource: Cristiano et al. 2020"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#urban-systems-science",
@@ -732,7 +732,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#urban-system-science-approach",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Urban system science approach:",
-    "text": "Urban system science approach:\n\n\n\nUpdated from Grolemund & Wickham’s classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations\n\n\n\nThe same as regular data science but with spatial data"
+    "text": "Urban system science approach:\n\n\n\nUpdated from Grolemund & Wickham's classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations\n\n\n\nThe same as regular data science but with spatial data"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#an-example.uhi",
@@ -900,7 +900,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#this-allows-the-geometry-column-and-spatial-quieres",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "This allows the “geometry” column and spatial quieres",
-    "text": "This allows the “geometry” column and spatial quieres\n\nMaking random points in polygons\n\n\n\n\n\n5 million random points\n\nQGIS = 226 seconds\nPostGIS = 18 seconds\n\n\nSource: Why should you care about PostGIS? — A gentle introduction to spatial databases"
+    "text": "This allows the “geometry” column and spatial quieres\nMaking random points in polygons\n\n\n\n\n\n5 million random points\n\nQGIS = 226 seconds\nPostGIS = 18 seconds\n\n\nSource: Why should you care about PostGIS? — A gentle introduction to spatial databases"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#urban-systems-science-5",
@@ -1033,7 +1033,7 @@
     "href": "Pedagogic Challenges 2 Urban Systems Science.html#who-has-made-our-boundary-data-1",
     "title": "Pedagogic challenges 2: urban systems science",
     "section": "Who has made our boundary data?",
-    "text": "Who has made our boundary data?\nRedlining\n\n\n\n1930s – American Home Owner’s Loan Corporation – prevent missed payments…residential security maps based on race\n\nPeople abandon areas\nCan’t refinance\nLess property tax for services\nSocial equity issues remain\nIllegal since 1968 Fair Housing Act\n\n\n\n\n\n\nLos Angeles Redlining"
+    "text": "Who has made our boundary data?\nRedlining\n\n\n\n1930s – American Home Owner’s Loan Corporation – prevent missed payments…residential security maps based on race\n\nPeople abandon areas\nCan’t refinance\nLess property tax for services\nSocial equity issues remain\n1968 Fair Housing Act\n\n\n\n\n\n\nLos Angeles Redlining"
   },
   {
     "objectID": "Pedagogic Challenges 2 Urban Systems Science.html#who-has-made-our-boundary-data-2",

@@ -57,8 +57,6 @@ logo: "img/CASA_logo.png"
 ::: {.column width="50%"}
 -   Lecturer in Spatial Data Science and Visualization at CASA, UCL
 
--   Run our main MSc programme
-
 -   Lead MSc modules in:
 
     -   [Geographic information systems and science](https://andrewmaclachlan.github.io/CASA0005repo/)
@@ -68,7 +66,7 @@ logo: "img/CASA_logo.png"
 
     -   [Applications of data for city decisions / sustainability](https://scholar.google.co.uk/citations?user=wLrJwyQAAAAJ&hl=en&oi=sra)
 
-    -   Using Big data for allocating funding
+    -   Big data for allocating funding
 :::
 
 ::: {.column width="50%"}
@@ -81,8 +79,6 @@ logo: "img/CASA_logo.png"
 ## Part 1: Urban systems science ? {.center}
 
 ## What do we mean
-
-<br/>
 
 ##### Urban systems {auto-animate="true"}
 
@@ -184,7 +180,7 @@ Source: [Smart Cities, European Comission](https://commission.europa.eu/eu-regio
 
 ## Urban system science approach:
 
-[![Updated from Grolemund & Wickham's classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations](img/environmental_data_science_r4ds_general.png){fig-align="center" width="55%"}](https://github.com/allisonhorst/stats-illustrations)
+[![Updated from Grolemund & Wickham\'s classis R4DS schematic, envisioned by Dr. Julia Lowndes for her 2019 useR! keynote talk and illustrated by Allison Horst. Source: Allison Horst data science and stats illustrations](img/environmental_data_science_r4ds_general.png){fig-align="center" width="55%"}](https://github.com/allisonhorst/stats-illustrations)
 
 > The same as regular data science **but with spatial data**
 
@@ -194,13 +190,13 @@ Source: [Smart Cities, European Comission](https://commission.europa.eu/eu-regio
 
 ::: columns
 ::: {.column width="49%"}
-![](img/woolstore.png){fig-align="center" width="423"}
+![](img/woolstore.png){fig-align="center" width="381"}
 
-![](img/woolstore_2.png){fig-align="center" width="430"}
+![](img/woolstore_2.png){fig-align="center" width="385"}
 :::
 
 ::: {.column width="49%"}
-![](img/woolstore_3.png){fig-align="center" width="467"}
+![](img/woolstore_3.png){fig-align="center" width="399"}
 :::
 :::
 
@@ -296,7 +292,7 @@ Ran 4 scenarios:
 
 \
 
-![](img/canada_election.png){fig-align="center" width="70%"}
+![](img/canada_election.png){fig-align="center" width="67%"}
 
 ## Ok, what about **geographic data** {.center}
 
@@ -315,7 +311,7 @@ Ran 4 scenarios:
     -   Can't refinance
     -   Less property tax for services
     -   Social equity issues remain
-    -   Illegal since 1968 Fair Housing Act
+    -   1968 Fair Housing Act
 :::
 
 ::: {.column width="49%"}
@@ -342,11 +338,11 @@ Every 10 years electoral districts are re-drawn "redistricting"-- Thomas Hofelle
 
 ## 
 
-![](img/tom_hofeller.jpg){fig-align="center" width="400"}
+![](img/tom_hofeller.jpg){fig-align="center" width="359"}
 
 > "Redistricting is democracy at work" - Tom Hofeller
 
-![](img/hofeller_files.png){fig-align="center" width="400"}
+![](img/hofeller_files.png){fig-align="center" width="335"}
 
 ## 
 
@@ -397,7 +393,7 @@ Source: [GIS Harvard](https://gis.harvard.edu/gis-data-science-big-data-workstre
 
     -   If we have large data this means we can skip groups we don't need
 
-![](img/parquet-logo.png){height="150px" fig-align="center"}
+![](img/parquet-logo.png){fig-align="center" width="187"}
 
 ## 
 
@@ -464,8 +460,6 @@ Source: [Christophe Nicault](https://www.christophenicault.com/post/large_datafr
 ## PostgreSQL has a PostGIS extention {.center}
 
 ## This allows the "geometry" column and spatial quieres {auto-animate="true"}
-
-<br/>
 
 #### Making random points in polygons
 
@@ -642,9 +636,7 @@ Each practical answers a question....
 
 ## 2. Make it mandatory for the assessment
 
-##### Part 2: GIS analysis
-
-##### Example practice question
+##### Part 2: GIS analysis, example practice question
 
 > New York City wish to conduct a study that aims to prevent people being evicted through understand possible related factors.You have been enlisted as a consultant and tasked to conduct an analysis of their data from 2020.
 
